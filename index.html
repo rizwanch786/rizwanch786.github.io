@@ -1,643 +1,736 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Rizwan</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Rizwan</title>
 
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/logo.ico"
+      type="image/x-icon">
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+  </head>
 
-<body>
+  <body>
 
-  <!--
+    <!--
     - #MAIN
   -->
 
-  <main>
+    <main>
 
-    <!--
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+        <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Richard hanrick"
+              width="80">
+          </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Muhammad Rizwan</h1>
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Muhammad Rizwan</h1>
 
-          <p class="title">Odoo Technical Developer</p>
+            <p class="title">Odoo Technical Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <div class="separator"></div>
 
-      </div>
+          <ul class="contacts-list">
 
-      <div class="sidebar-info_more">
+            <li class="contact-item">
 
-        <div class="separator"></div>
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-          <li class="contact-item">
+                <a href="mailto:richard@example.com" class="contact-link">rizwangcsit@gmail.com</a>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+            <li class="contact-item">
 
-              <a href="mailto:richard@example.com" class="contact-link">rizwangcsit@gmail.com</a>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+12133522795" class="contact-link">+92 (303)
+                  5585081</a>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+            <li class="contact-item">
 
-              <a href="tel:+12133522795" class="contact-link">+92 (303) 5585081</a>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-          <li class="contact-item">
+                <time datetime="1982-06-23">August 07, 1999</time>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+            <li class="contact-item">
 
-              <time datetime="1982-06-23">August 07, 1999</time>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-          <li class="contact-item">
+                <address>Johor Town, Lahore, Punjab, Pakistan</address>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
+          </ul>
 
-              <address>Johor Town, Lahore, Punjab, Pakistan</address>
-            </div>
+          <div class="separator"></div>
 
-          </li>
+          <ul class="social-list">
 
-        </ul>
+            <li class="social-item">
+              <a href="https://www.facebook.com/rizwangcsit/" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-        <div class="separator"></div>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-        <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://github.com/rizwanch786" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
+          </ul>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
+        </div>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+      </aside>
 
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
+      <div class="main-content">
 
-      <!--
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
 
-        <ul class="navbar-list">
+          <ul class="navbar-list">
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
 
-        </ul>
+          </ul>
 
-      </nav>
+        </nav>
 
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about  active" data-page="about">
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <section class="about-text">
-          <p>
-            I am a highly skilled Odoo Technical Developer with three years of experience in designing and implementing
-            robust business solutions using the Odoo ERP platform.
-          </p>
+          <section class="about-text">
+            <p>
+              Results-driven Odoo Developer with a proven track record of
+              designing, developing, and deploying robust ERP applications over
+              the course of 3 years. 
+            </p>
+            <p>
+              Skilled in customizing and extending Odoo
+              modules to meet diverse client needs, I have a deep understanding
+              of technical architecture, data migration, and seamless
+              integrations with third-party systems. My expertise in workflow
+              customization, performance optimization, and code quality
+              assurance ensures the delivery of efficient and reliable
+              solutions. Adept at client collaboration and mentoring junior
+              developers, I am committed to staying at the forefront of Odoo's
+              latest features and best practices, enabling the successful
+              implementation of ERP solutions that drive business growth.
+            </p>
+            <p>
+              My passion for creating efficient, customized systems that
+              streamline and enhance business operations has
+              driven me to excel in the world of enterprise software
+              development. I developed erp applications for many
+              famous brand companies.
+            </p>
+          </section>
 
-          <p>
-            My passion for creating efficient, customized systems that streamline and enhance business operations has
-            driven me to excel in the world of enterprise software development. I developed erp applications for many
-            famous brand companies.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <h3 class="h3 service-title">What i'm doing</h3>
 
-          <ul class="service-list">
+            <ul class="service-list">
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
                 " alt="design icon" width="40">
-              </div>
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Odoo ERP</h4>
 
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Develop new modules and Q-WEB reports
+                  </p>
+                  <p class="service-item-text">
+                    Customization on existing modules and Q-WEB reports
+                  </p>
+                  <p class="service-item-text">
+                    Odoo insatllation and configuration on server
+                  </p>
+                  <p class="service-item-text">
+                    Functional consultation and support
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg"
+                    alt="Web development icon" width="40">
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon"
+                    width="40">
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
 
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon"
+                    width="40">
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Video Editing</h4>
 
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    I make high-quality animated videos of any category at a professional
+                    level.
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-          </ul>
+            </ul>
+          </section>
 
-        </section>
-
-
-        <!--
+          <!--
           - testimonials
         -->
 
-        <section class="testimonials">
+          <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+            <h3 class="h3 testimonials-title">Testimonials</h3>
 
-          <ul class="testimonials-list has-scrollbar">
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Henry william"
+                      width="60" data-testimonials-avatar>
+                  </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Raahim Naeem</h4>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Raahim
+                    Naeem</h4>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Rizwan's ability to solve new problems and to learn new things is unmatched. He's a very talented
-                    and hardworking guy who is exceptionally skilled in Python. I would highly recommend him and would
-                    consider any organization lucky to have him as a software developer.
-                </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Rizwan's ability to solve new problems and to learn new
+                      things is unmatched. He's a very talented
+                      and hardworking guy who is exceptionally skilled in
+                      Python. I would highly recommend him and would
+                      consider any organization lucky to have him as a software
+                      developer.
+                    </div>
+                  </li>
+                  <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
+                      <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/avatar-4.png"
+                          alt="Daniel lewis" width="60" data-testimonials-avatar>
+                      </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rafaqat Ali</h4>
+                      <h4 class="h4 testimonials-item-title"
+                        data-testimonials-title>Rafaqat Ali</h4>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    He is a very hard working and skillful young man with a enthusiasm to always learn more and get the
-                    challenge to do things which others consider beyond the possibilities. He has a very bright future
-                    ahead of him and i have my best wishes and support with him.
-                  </p>
-                </div>
+                      <div class="testimonials-text" data-testimonials-text>
+                        <p>
+                          He is a very hard working and skillful young man with
+                          a enthusiasm to always learn more and get the
+                          challenge to do things which others consider beyond
+                          the possibilities. He has a very bright future
+                          ahead of him and i have my best wishes and support
+                          with him.
+                        </p>
+                      </div>
 
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                    </div>
+                  </li>
+                  <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+                      <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/avatar-1.png"
+                          alt="Henry william" width="60"
+                          data-testimonials-avatar>
+                      </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kaleem Abbas</h4>
+                      <h4 class="h4 testimonials-item-title"
+                        data-testimonials-title>Kaleem Abbas</h4>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Best Problem Solver. Highly Recommended as a Python developer. </p>
-                </div>
+                      <div class="testimonials-text" data-testimonials-text>
+                        <p>
+                          Best Problem Solver. Highly Recommended as a Python
+                          developer. </p>
+                      </div>
 
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                    </div>
+                  </li>
+                  <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+                      <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/avatar-1.png"
+                          alt="Henry william" width="60"
+                          data-testimonials-avatar>
+                      </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Muhammad Asad</h4>
+                      <h4 class="h4 testimonials-item-title"
+                        data-testimonials-title>Muhammad Asad</h4>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I highly recommend my mentor Muhammad Rizwan for his outstanding aptitude in Python, Django,
-                    automation and Odoo development. He is highly adept at delivering top-notch results by leveraging
-                    his in-depth understanding and expertise in these areas. His technical proficiency, dedication and
-                    attention to detail make him invaluable for any project.
-                  </p>
-                </div>
+                      <div class="testimonials-text" data-testimonials-text>
+                        <p>
+                          I highly recommend my mentor Muhammad Rizwan for his
+                          outstanding aptitude in Python, Django,
+                          automation and Odoo development. He is highly adept at
+                          delivering top-notch results by leveraging
+                          his in-depth understanding and expertise in these
+                          areas. His technical proficiency, dedication and
+                          attention to detail make him invaluable for any
+                          project.
+                        </p>
+                      </div>
 
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                    </div>
+                  </li>
+                  <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+                      <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/avatar-1.png"
+                          alt="Henry william" width="60"
+                          data-testimonials-avatar>
+                      </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sarmad Iqbal</h4>
+                      <h4 class="h4 testimonials-item-title"
+                        data-testimonials-title>Sarmad Iqbal</h4>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Muhammad Rizwan has exceptional skills in python... including problem solving and bug fixing.
-                </div>
+                      <div class="testimonials-text" data-testimonials-text>
+                        <p>
+                          Muhammad Rizwan has exceptional skills in python...
+                          including problem solving and bug fixing.
+                        </div>
 
-              </div>
-            </li>
+                      </div>
+                    </li>
 
+                    <li class="testimonials-item">
+                      <div class="content-card" data-testimonials-item>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/avatar-1.png"
+                            alt="Jessica miller" width="60"
+                            data-testimonials-avatar>
+                        </figure>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
+                        <h4 class="h4 testimonials-item-title"
+                          data-testimonials-title>Umair Ramzan</h4>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Umair Ramzan</h4>
+                        <div class="testimonials-text" data-testimonials-text>
+                          <p>
+                            I am delighted to write a recommendation for Rizwan.
+                            Rizwan is a true professional in every sense of the
+                            word. His technical proficiency in Odoo is
+                            outstanding, and he consistently demonstrates a deep
+                            understanding of the platform's capabilities.
+                            Whether it's custom module development, database
+                            optimization, or system integration, Rizwan tackles
+                            each task with a high level of skill and precision.
+                          </p>
+                        </div>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I am delighted to write a recommendation for Rizwan.
-                    Rizwan is a true professional in every sense of the word. His technical proficiency in Odoo is
-                    outstanding, and he consistently demonstrates a deep understanding of the platform's capabilities.
-                    Whether it's custom module development, database optimization, or system integration, Rizwan tackles
-                    each task with a high level of skill and precision.
-                  </p>
-                </div>
+                      </div>
+                    </li>
 
-              </div>
-            </li>
+                    <li class="testimonials-item">
+                      <div class="content-card" data-testimonials-item>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/avatar-1.png"
+                            alt="Emily evans" width="60"
+                            data-testimonials-avatar>
+                        </figure>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
+                        <h4 class="h4 testimonials-item-title"
+                          data-testimonials-title>Muhammad Usman</h4>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Muhammad Usman</h4>
+                        <div class="testimonials-text" data-testimonials-text>
+                          <p>
+                            I have had the privilege of working closely with
+                            Muhammad Rizwan for the past several years, and I
+                            can confidently say that he is an exceptional
+                            professional. Muhammad is not only a highly skilled
+                            and knowledgeable individual in his field but also a
+                            great team player.
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I have had the privilege of working closely with Muhammad Rizwan for the past several years, and I
-                    can confidently say that he is an exceptional professional. Muhammad is not only a highly skilled
-                    and knowledgeable individual in his field but also a great team player.
+                            His dedication to his work is evident in his
+                            attention to detail and his ability to tackle
+                            complex
+                            problems with ease. Muhammad's communication skills
+                            are also impressive, making him a valuable asset
+                            when it comes to collaborating with colleagues and
+                            clients.
 
-                    His dedication to his work is evident in his attention to detail and his ability to tackle complex
-                    problems with ease. Muhammad's communication skills are also impressive, making him a valuable asset
-                    when it comes to collaborating with colleagues and clients.
+                            Furthermore, Muhammad's positive attitude and
+                            willingness to go the extra mile make him a pleasure
+                            to work with. He consistently delivers results and
+                            is always eager to take on new challenges.
 
-                    Furthermore, Muhammad's positive attitude and willingness to go the extra mile make him a pleasure
-                    to work with. He consistently delivers results and is always eager to take on new challenges.
+                            I wholeheartedly recommend Muhammad Rizwan to anyone
+                            looking for a dedicated and capable
+                            professional who can make a significant contribution
+                            to their team or organization. He is a true
+                            asset, and I have no doubt he will continue to excel
+                            in his career.
+                          </p>
+                        </div>
 
-                    I wholeheartedly recommend Muhammad Rizwan to anyone looking for a dedicated and capable
-                    professional who can make a significant contribution to their team or organization. He is a true
-                    asset, and I have no doubt he will continue to excel in his career.
-                  </p>
-                </div>
+                      </div>
+                    </li>
 
-              </div>
-            </li>
+                    <li class="testimonials-item">
+                      <div class="content-card" data-testimonials-item>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/avatar-4.png"
+                            alt="Henry william" width="60"
+                            data-testimonials-avatar>
+                        </figure>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+                        <h4 class="h4 testimonials-item-title"
+                          data-testimonials-title>Ahsan Shah</h4>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ahsan Shah</h4>
+                        <div class="testimonials-text" data-testimonials-text>
+                          <p>
+                            I highly recommend Rizwan for any professional
+                            opportunity. He is a talented and dedicated
+                            individual who consistently delivers exceptional
+                            results. His problem-solving skills, attention to
+                            detail, and strong work ethic make him an invaluable
+                            asset to any organization. Rizwan's ability to
+                            collaborate effectively and inspire others sets him
+                            apart as a remarkable team player. I personally
+                            learned alot from him and have full confidence in
+                            his abilities and believe he will excel in any
+                            role he undertakes.
+                          </p>
+                        </div>
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I highly recommend Rizwan for any professional opportunity. He is a talented and dedicated
-                    individual who consistently delivers exceptional results. His problem-solving skills, attention to
-                    detail, and strong work ethic make him an invaluable asset to any organization. Rizwan's ability to
-                    collaborate effectively and inspire others sets him apart as a remarkable team player. I personally
-                    learned alot from him and have full confidence in his abilities and believe he will excel in any
-                    role he undertakes.
-                  </p>
-                </div>
+                      </div>
+                    </li>
+                    <li class="testimonials-item">
+                      <div class="content-card" data-testimonials-item>
 
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/avatar-4.png"
+                            alt="Henry william" width="60"
+                            data-testimonials-avatar>
+                        </figure>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+                        <h4 class="h4 testimonials-item-title"
+                          data-testimonials-title>Harish Ahmad</h4>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Harish Ahmad</h4>
+                        <div class="testimonials-text" data-testimonials-text>
+                          <p>
+                            I had the pleasure of working with Muhammad Rizwan,
+                            and I can confidently say that he is a highly
+                            skilled and motivated developer. Muhammad is
+                            particularly skilled in Python, Django, and
+                            Postgresql,
+                            and has a talent for building scalable and robust
+                            software solutions.
 
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I had the pleasure of working with Muhammad Rizwan, and I can confidently say that he is a highly
-                    skilled and motivated developer. Muhammad is particularly skilled in Python, Django, and Postgresql,
-                    and has a talent for building scalable and robust software solutions.
+                            Muhammad's technical skills are complemented by his
+                            excellent communication and interpersonal
+                            skills. He is able to communicate technical concepts
+                            in a clear and concise manner, making him an
+                            effective communicator with both technical and
+                            non-technical stakeholders. His attention to detail
+                            and commitment to quality ensure that his work is
+                            always of the highest standard. </p>
+                        </div>
 
-                    Muhammad's technical skills are complemented by his excellent communication and interpersonal
-                    skills. He is able to communicate technical concepts in a clear and concise manner, making him an
-                    effective communicator with both technical and non-technical stakeholders. His attention to detail
-                    and commitment to quality ensure that his work is always of the highest standard. </p>
-                </div>
+                      </div>
+                    </li>
+                  </ul>
 
-              </div>
-            </li>
-          </ul>
+                </section>
 
-        </section>
-
-
-        <!--
+                <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+                <div class="modal-container" data-modal-container>
 
-          <div class="overlay" data-overlay></div>
+                  <div class="overlay" data-overlay></div>
 
-          <section class="testimonials-modal">
+                  <section class="testimonials-modal">
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
+                    <button class="modal-close-btn" data-modal-close-btn>
+                      <ion-icon name="close-outline"></ion-icon>
+                    </button>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
+                    <div class="modal-img-wrapper">
+                      <figure class="modal-avatar-box">
+                        <img src="./assets/images/avatar-1.png"
+                          alt="Daniel lewis" width="80" data-modal-img>
+                      </figure>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
+                      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                    </div>
 
-            <div class="modal-content">
+                    <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                      <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
-              <time datetime="2022">2021-2023</time>
+                      <time datetime="2022">2021-2023</time>
 
-              <div data-modal-text>
-                <!-- <p>
+                      <div data-modal-text>
+                        <!-- <p>
                   Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
                   lot of experience
                   and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
                   consectetur adipiscing
                   elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                 </p> -->
-              </div>
+                      </div>
 
-            </div>
+                    </div>
 
-          </section>
+                  </section>
 
-        </div>
+                </div>
 
-
-        <!--
+                <!--
           - clients
         -->
 
-        <section class="clients">
+                <section class="clients">
 
-          <h3 class="h3 clients-title">Clients</h3>
+                  <h3 class="h3 clients-title">Clients</h3>
 
-          <ul class="clients-list has-scrollbar">
+                  <ul class="clients-list has-scrollbar">
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
+                    <li class="clients-item">
+                      <a href="#">
+                        <img src="./assets/images/logo-1-color.png"
+                          alt="client logo">
+                      </a>
+                    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
+                    <li class="clients-item">
+                      <a href="#">
+                        <img src="./assets/images/logo-2-color.png"
+                          alt="client logo">
+                      </a>
+                    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
+                    <li class="clients-item">
+                      <a href="#">
+                        <img src="./assets/images/logo-3-color.png"
+                          alt="client logo">
+                      </a>
+                    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
+                    <li class="clients-item">
+                      <a href="#">
+                        <img src="./assets/images/logo-4-color.png"
+                          alt="client logo">
+                      </a>
+                    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
+                    <li class="clients-item">
+                      <a href="#">
+                        <img src="./assets/images/logo-5-color.png"
+                          alt="client logo">
+                      </a>
+                    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
+                    <li class="clients-item">
+                      <a href="#">
+                        <img src="./assets/images/logo-6-color.png"
+                          alt="client logo">
+                      </a>
+                    </li>
 
-          </ul>
+                  </ul>
 
-        </section>
+                </section>
 
-      </article>
+              </article>
 
-
-
-
-
-      <!--
+              <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+              <article class="resume" data-page="resume">
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+                <header>
+                  <h2 class="h2 article-title">Resume</h2>
+                </header>
 
-        <section class="timeline">
+                <section class="timeline">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
+                  <div class="title-wrapper">
+                    <div class="icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+                    <h3 class="h3">Education</h3>
+                  </div>
 
-          <ol class="timeline-list">
+                  <ol class="timeline-list">
 
-            <li class="timeline-item">
+                    <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University of the Punjab</h4>
+                      <h4 class="h4 timeline-item-title">University of the
+                        Punjab</h4>
 
-              <span>20016 — 2020 (Gold Medalist)</span>
+                      <span>20016 — 2020 (Gold Medalist)</span>
 
-              <p class="timeline-text">
-                Bachelor of Science in Information Technology
-              </p>
+                      <p class="timeline-text">
+                        Bachelor of Science in Information Technology
+                      </p>
 
-            </li>
+                    </li>
 
-            <!-- <li class="timeline-item">
+                    <!-- <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">New york academy of art</h4>
 
@@ -650,7 +743,7 @@
 
             </li> -->
 
-            <!-- <li class="timeline-item">
+                    <!-- <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">High school of art and design</h4>
 
@@ -664,631 +757,920 @@
 
             </li> -->
 
-          </ol>
+                  </ol>
 
-        </section>
+                </section>
 
-        <section class="timeline">
+                <section class="timeline">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
+                  <div class="title-wrapper">
+                    <div class="icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+                    <h3 class="h3">Experience</h3>
+                  </div>
 
-          <ol class="timeline-list">
+                  <ol class="timeline-list">
 
-            <li class="timeline-item">
+                    <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+                      <h4 class="h4 timeline-item-title">Hussain Chaudhary
+                        Consulting</h4>
 
-              <span>2015 — Present</span>
+                      <span>Sr. Odoo Technical Developer</span>
+                      <span>2023 — Present</span>
 
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
+                      <p class="timeline-text">
+                        Lead the development and customization of Odoo
+                        modules to meet client requirements, ensuring code
+                        quality and best practices.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Design and implement technical solutions and
+                        architectures for Odoo projects, taking into account
+                        scalability and performance considerations.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Conduct code reviews for junior developers,
+                        providing feedback and guidance to maintain code
+                        quality
+                        and consistency.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Plan and execute data migration from legacy systems
+                        to Odoo, ensuring data integrity and accuracy.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Develop custom reports and dashboards using Odoo's
+                        reporting tools and libraries.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Application deployment on servers (odoo.sh & VPS
+                        Servers).
 
-            </li>
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Customize Odoo workflows and business processes to
+                        align with client needs, optimizing efficiency and
+                        automation.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Identify and resolve performance bottlenecks in Odoo
+                        applications, optimizing database queries and
+                        system resources.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Utilize version control systems like Git to manage
+                        code repositories and collaborate with team
+                        members.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Investigate and resolve complex technical issues and
+                        bugs in Odoo applications.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Collaborate with cross-functional teams, including
+                        business analysts, project managers, and quality
+                        assurance teams, to deliver successful Odoo
+                        projects.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Keep up-to-date with the latest Odoo developments,
+                        modules, and best practices in the Odoo community.
+                      </p>
+                    </li>
 
-            <li class="timeline-item">
+                    <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+                      <h4 class="h4 timeline-item-title">Cognitive Force
+                        Information Technology</h4>
 
-              <span>2013 — 2015</span>
+                      <span>Odoo Technical Developer</span>
+                      <span>2022 — 2023</span>
 
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
+                      <p class="timeline-text">
+                        Developing robust applications in ERP framework – ODOO
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Planning for project implementation.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Actively participate in application architecture design
+                        and development.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Code Management / Versioning.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Develop new product features as per the requirements.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Application deployment on servers (odoo.sh & VPS
+                        Servers).
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Identify and resolve performance bottlenecks in Odoo
+                        applications, optimizing database queries and
+                        system resources.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Troubleshooting complex computer software and providing
+                        end-user support.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Communicate with other colleagues to organize
+                        dependencies and ensure timely delivery.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Ensure deliverables meet quality standards at the end of
+                        each sprint.
+                      </p>
+                    </li>
 
-            </li>
+                    <li class="timeline-item">
 
-            <li class="timeline-item">
+                      <h4 class="h4 timeline-item-title">Viltco Technologies</h4>
 
-              <h4 class="h4 timeline-item-title">Web designer</h4>
+                      <span>Python Consultant</span>
+                      <span>2021 — 2022</span>
 
-              <span>2010 — 2013</span>
+                      <p class="timeline-text">
+                        Customization on existing Modules and QWEB Reports in
+                        ERP framework – ODOO. </p>
+                      <br />
+                      <p class="timeline-text">
+                        Creating new Modules and QWEB Reports </p>
+                      <br />
+                      <p class="timeline-text">
+                        Access & configure all modules/applications. </p>
+                      <br />
+                      <p class="timeline-text">
+                        Actively participate in application architecture design
+                        and development. </p>
+                      <br />
+                      <p class="timeline-text">
+                        Application deployment on servers. </p>
+                      <br />
+                      <p class="timeline-text">
+                        Troubleshooting complex computer software and providing
+                        end-user support. </p>
+                      <br />
+                      <p class="timeline-text">
+                        Front-end/back-end analysis and design.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Troubleshooting complex computer software and providing
+                        end-user support.
+                      </p>
+                      <br />
+                      <p class="timeline-text">
+                        Development of the underlying architecture for the
+                        applications. </p>
+                      <br />
+                      <p class="timeline-text">
+                        Working on External APIs. </p>
+                    </li>
 
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
+                  </ol>
 
-            </li>
+                </section>
 
-          </ol>
+                <section class="skill">
 
-        </section>
+                  <h3 class="h3 skills-title">My skills</h3>
 
-        <section class="skill">
+                  <ul class="skills-list content-card">
 
-          <h3 class="h3 skills-title">My skills</h3>
+                    <li class="skills-item">
 
-          <ul class="skills-list content-card">
+                      <div class="title-wrapper">
+                        <h5 class="h5">PYTHON</h5>
+                        <data value="90">90%</data>
+                      </div>
 
-            <li class="skills-item">
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 90%;"></div>
+                      </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
+                    </li>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
+                    <li class="skills-item">
 
-            </li>
+                      <div class="title-wrapper">
+                        <h5 class="h5">ODOO ERP (CERTIFIED)</h5>
+                        <data value="80">80%</data>
+                      </div>
 
-            <li class="skills-item">
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 80%;"></div>
+                      </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
+                    </li>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
+                    <li class="skills-item">
 
-            </li>
+                      <div class="title-wrapper">
+                        <h5 class="h5">PostgreSQL</h5>
+                        <data value="80">80%</data>
+                      </div>
 
-            <li class="skills-item">
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 80%;"></div>
+                      </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
+                    </li>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
+                    <li class="skills-item">
 
-            </li>
+                      <div class="title-wrapper">
+                        <h5 class="h5">HTML</h5>
+                        <data value="90">90%</data>
+                      </div>
 
-            <li class="skills-item">
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 90%;"></div>
+                      </div>
+                    </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
+                    <li class="skills-item">
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
+                      <div class="title-wrapper">
+                        <h5 class="h5">CSS</h5>
+                        <data value="80">80%</data>
+                      </div>
 
-            </li>
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 80%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="title-wrapper">
+                        <h5 class="h5">JAVA SCRIPT</h5>
+                        <data value="70">70%</data>
+                      </div>
 
-          </ul>
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 70%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
 
-        </section>
+                      <div class="title-wrapper">
+                        <h5 class="h5">DJANGO</h5>
+                        <data value="90">90%</data>
+                      </div>
 
-      </article>
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 90%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="title-wrapper">
+                        <h5 class="h5">Django RF</h5>
+                        <data value="70">70%</data>
+                      </div>
 
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 70%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="title-wrapper">
+                        <h5 class="h5">SQL</h5>
+                        <data value="80">80%</data>
+                      </div>
 
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 80%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="title-wrapper">
+                        <h5 class="h5">LINUX</h5>
+                        <data value="90">90%</data>
+                      </div>
 
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 90%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="title-wrapper">
+                        <h5 class="h5">SCRAPPING</h5>
+                        <data value="80">80%</data>
+                      </div>
 
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 80%;"></div>
+                      </div>
+                    </li>
+                    <li class="skills-item">
+                      <div class="title-wrapper">
+                        <h5 class="h5">CLOUD (ODOO.SH DIGITAL OCEAN, VPS
+                          SERVERS)</h5>
+                        <data value="90">90%</data>
+                      </div>
 
-      <!--
+                      <div class="skill-progress-bg">
+                        <div class="skill-progress-fill"
+                          style="width: 90%;"></div>
+                      </div>
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5">GITHUB</h5>
+                          <data value="80">80%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                          <div class="skill-progress-fill"
+                            style="width: 80%;"></div>
+                        </div>
+                      </li>
+                    </li>
+                  </ul>
+
+                </section>
+
+              </article>
+
+              <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+              <article class="portfolio" data-page="portfolio">
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+                <header>
+                  <h2 class="h2 article-title">Portfolio</h2>
+                </header>
 
-        <section class="projects">
+                <section class="projects">
 
-          <ul class="filter-list">
+                  <ul class="filter-list">
 
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
+                    <li class="filter-item">
+                      <button class="active" data-filter-btn>All</button>
+                    </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Web design</button>
+                    </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Applications</button>
+                    </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
+                    <li class="filter-item">
+                      <button data-filter-btn>Web development</button>
+                    </li>
 
-          </ul>
+                  </ul>
 
-          <div class="filter-select-box">
+                  <div class="filter-select-box">
 
-            <button class="filter-select" data-select>
+                    <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+                      <div class="select-value" data-selecct-value>Select
+                        category</div>
 
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
+                      <div class="select-icon">
+                        <ion-icon name="chevron-down"></ion-icon>
+                      </div>
 
-            </button>
+                    </button>
 
-            <ul class="select-list">
+                    <ul class="select-list">
 
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
+                      <li class="select-item">
+                        <button data-select-item>All</button>
+                      </li>
 
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
+                      <li class="select-item">
+                        <button data-select-item>Web design</button>
+                      </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
+                      <li class="select-item">
+                        <button data-select-item>Applications</button>
+                      </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
+                      <li class="select-item">
+                        <button data-select-item>Web development</button>
+                      </li>
 
-            </ul>
+                    </ul>
 
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
+                  <ul class="project-list">
 
-                <h3 class="project-title">Finance</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web development">
+                      <a href="#">
 
-                <p class="project-category">Web development</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-1.jpg"
+                            alt="finance"
+                            loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+                        <h3 class="project-title">Finance</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Web development</p>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">Orizon</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web development">
+                      <a href="#">
 
-                <p class="project-category">Web development</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-2.png"
+                            alt="orizon"
+                            loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+                        <h3 class="project-title">Orizon</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Web development</p>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">Fundo</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web design">
+                      <a href="#">
 
-                <p class="project-category">Web design</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-3.jpg"
+                            alt="fundo"
+                            loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+                        <h3 class="project-title">Fundo</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Web design</p>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="applications">
+                      <a href="#">
 
-                <p class="project-category">Applications</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-4.png"
+                            alt="brawlhalla" loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+                        <h3 class="project-title">Brawlhalla</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Applications</p>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">DSM.</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web design">
+                      <a href="#">
 
-                <p class="project-category">Web design</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-5.png"
+                            alt="dsm."
+                            loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+                        <h3 class="project-title">DSM.</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Web design</p>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">MetaSpark</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web design">
+                      <a href="#">
 
-                <p class="project-category">Web design</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-6.png"
+                            alt="metaspark" loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+                        <h3 class="project-title">MetaSpark</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Web design</p>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">Summary</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web development">
+                      <a href="#">
 
-                <p class="project-category">Web development</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-7.png"
+                            alt="summary"
+                            loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+                        <h3 class="project-title">Summary</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Web development</p>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">Task Manager</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="applications">
+                      <a href="#">
 
-                <p class="project-category">Applications</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-8.jpg"
+                            alt="task manager" loading="lazy">
+                        </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+                        <h3 class="project-title">Task Manager</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                        <p class="project-category">Applications</p>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
+                      </a>
+                    </li>
 
-                <h3 class="project-title">Arrival</h3>
+                    <li class="project-item  active" data-filter-item
+                      data-category="web development">
+                      <a href="#">
 
-                <p class="project-category">Web development</p>
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
 
-              </a>
-            </li>
+                          <img src="./assets/images/project-9.png"
+                            alt="arrival"
+                            loading="lazy">
+                        </figure>
 
-          </ul>
+                        <h3 class="project-title">Arrival</h3>
 
-        </section>
+                        <p class="project-category">Web development</p>
 
-      </article>
+                      </a>
+                    </li>
 
+                  </ul>
 
+                </section>
 
+              </article>
 
-
-      <!--
+              <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+              <article class="blog" data-page="blog">
 
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
+                <header>
+                  <h2 class="h2 article-title">Blog</h2>
+                </header>
 
-        <section class="blog-posts">
+                <section class="blog-posts">
 
-          <ul class="blog-posts-list">
+                  <ul class="blog-posts-list">
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="blog-post-item">
+                      <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-1.jpg"
+                            alt="Design conferences in 2022"
+                            loading="lazy">
+                        </figure>
 
-                <div class="blog-content">
+                        <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                            <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                          <h3 class="h3 blog-item-title">Design
+                            conferences in
+                            2022</h3>
 
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
+                          <p class="blog-text">
+                            Veritatis et quasi architecto beatae vitae
+                            dicta
+                            sunt, explicabo.
+                          </p>
 
-                </div>
+                        </div>
 
-              </a>
-            </li>
+                      </a>
+                    </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="blog-post-item">
+                      <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-2.jpg"
+                            alt="Best fonts every designer" loading="lazy">
+                        </figure>
 
-                <div class="blog-content">
+                        <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                            <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                          <h3 class="h3 blog-item-title">Best fonts every
+                            designer</h3>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
+                          <p class="blog-text">
+                            Sed ut perspiciatis, nam libero tempore, cum
+                            soluta
+                            nobis est eligendi.
+                          </p>
 
-                </div>
+                        </div>
 
-              </a>
-            </li>
+                      </a>
+                    </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="blog-post-item">
+                      <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-3.jpg"
+                            alt="Design digest #80" loading="lazy">
+                        </figure>
 
-                <div class="blog-content">
+                        <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                            <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                          <h3 class="h3 blog-item-title">Design digest #80</h3>
 
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
+                          <p class="blog-text">
+                            Excepteur sint occaecat cupidatat no proident,
+                            quis
+                            nostrum exercitationem ullam corporis
+                            suscipit.
+                          </p>
 
-                </div>
+                        </div>
 
-              </a>
-            </li>
+                      </a>
+                    </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="blog-post-item">
+                      <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-4.jpg"
+                            alt="UI interactions of the week"
+                            loading="lazy">
+                        </figure>
 
-                <div class="blog-content">
+                        <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                            <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                          <h3 class="h3 blog-item-title">UI interactions
+                            of the
+                            week</h3>
 
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
+                          <p class="blog-text">
+                            Enim ad minim veniam, consectetur adipiscing
+                            elit,
+                            quis nostrud exercitation ullamco laboris
+                            nisi.
+                          </p>
 
-                </div>
+                        </div>
 
-              </a>
-            </li>
+                      </a>
+                    </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="blog-post-item">
+                      <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-5.jpg"
+                            alt="The forgotten art of spacing"
+                            loading="lazy">
+                        </figure>
 
-                <div class="blog-content">
+                        <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                            <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
 
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                          <h3 class="h3 blog-item-title">The forgotten art
+                            of
+                            spacing</h3>
 
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                          <p class="blog-text">
+                            Maxime placeat, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua.
+                          </p>
 
-                </div>
+                        </div>
 
-              </a>
-            </li>
+                      </a>
+                    </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <li class="blog-post-item">
+                      <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-6.jpg"
+                            alt="Design digest #79" loading="lazy">
+                        </figure>
 
-                <div class="blog-content">
+                        <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                            <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+                          <h3 class="h3 blog-item-title">Design digest #79</h3>
 
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
+                          <p class="blog-text">
+                            Optio cumque nihil impedit uo minus quod
+                            maxime
+                            placeat, velit esse cillum.
+                          </p>
 
-                </div>
+                        </div>
 
-              </a>
-            </li>
+                      </a>
+                    </li>
 
-          </ul>
+                  </ul>
 
-        </section>
+                </section>
 
-      </article>
+              </article>
 
-
-
-
-
-      <!--
+              <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+              <article class="contact" data-page="contact">
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+                <header>
+                  <h2 class="h2 article-title">Contact</h2>
+                </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+                <section class="mapbox" data-mapbox>
+                  <figure>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                      width="400" height="300" loading="lazy"></iframe>
+                  </figure>
+                </section>
 
-        <section class="contact-form">
+                <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+                  <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+                  <form action="#" class="form" data-form>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                    <div class="input-wrapper">
+                      <input type="text" name="fullname"
+                        class="form-input"
+                        placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                      <input type="email" name="email" class="form-input"
+                        placeholder="Email address" required
+                        data-form-input>
+                    </div>
+
+                    <textarea name="message" class="form-input"
+                      placeholder="Your Message" required data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" disabled
+                      data-form-btn>
+                      <ion-icon name="paper-plane"></ion-icon>
+                      <span>Send Message</span>
+                    </button>
+
+                  </form>
+
+                </section>
+
+              </article>
+
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          </main>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+          <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+          <script src="./assets/js/script.js"></script>
 
-  <!--
+          <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-</body>
+        </body>
 
-</html>
+      </html>
